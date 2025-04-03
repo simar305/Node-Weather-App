@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About | Weather App</title>
+    <link rel="icon" href="/image/Weather.webp">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <div class="about-container">
+            <img class="portrait" src="/image/simar.png" alt="Simar Singh Narang" />
+            <h2>About the Weather App</h2>
+            <p>
+                This weather application provides real-time weather updates, including temperature, humidity,
+                air quality, wind speed, and more. Stay prepared for any weather conditions with accurate forecasts.
+            </p>
+
+            <h3>Features:</h3>
+            <ul>
+                <li>Live temperature and weather conditions</li>
+                <li>Sunrise and sunset timings</li>
+                <li>Air Quality Index for health awareness</li>
+                <li>Wind speed and direction details</li>
+                <li>Rain and cloud coverage predictions</li>
+            </ul>
+
+            <h3>Developer:</h3>
+            <p><strong>{{name}}</strong></p>
+            <p>Passionate about creating useful and interactive web applications.</p>
+        </div>
+
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
